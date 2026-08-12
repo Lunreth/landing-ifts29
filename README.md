@@ -9,4 +9,4 @@
 
 * <ins>Herramientas utilizadas:</ins> ChatGPT (versión gratuita) + Visual Studio Code + Infraestructura de Vercel (Back End)
 
-Las decisiones tomadas cumplen con el ciclo de vida de las aplicaciones, comenzando por una idea o una problematica a resolver, en este caso se trata de una landing page para portafolio. Lo siguiente fue comprobar los requisitos técnicos, funcionales y no funcionales impuestos por el cliente (docente) y luego empezar con el desarrollo asistido con IA verificando en cada paso con mini pruebas con el fin de encontrar errores o falta de accesibilidad para los usuarios potenciales.
+Las decisiones tomadas cumplen con el ciclo de vida de las aplicaciones, comenzando por una idea o una problemática a resolver, en este caso se trata de una landing page para portafolio. Lo siguiente fue comprobar los requisitos técnicos, funcionales y no funcionales impuestos por el cliente (docente) y luego empezar con el desarrollo asistido con IA verificando en cada paso el cumplimiento de cada una de las consignas mediante mini pruebas con el fin de encontrar errores.
