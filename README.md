@@ -1,1 +1,12 @@
-# landing-ifts29
+# LANDING DE PORTAFOLIO - PFO N°1
+
+[LINK AL DEPLOY EN VERCEL](https://landing-ifts29.vercel.app/)
+
+* <ins>Autor:</ins> Martínez Cáceres, Kevin David
+* <ins>Materia:</ins> Desarrollo de Sistemas Web (Front End)
+
+* <ins>Descripción:</ins> Esta práctica formativa obligatoria tiene como objetivo lograr el despliegue de una landing page breve para presentar mi perfil, mis habilidades, hobbies y una forma de contacto.
+
+* <ins>Herramientas utilizadas:</ins> ChatGPT (versión gratuita) + Visual Studio Code + Infraestructura de Vercel (Back End)
+
+Las decisiones tomadas cumplen con el ciclo de vida de las aplicaciones, comenzando por una idea o una problematica a resolver, en este caso se trata de una landing page para portafolio. Lo siguiente fue comprobar los requisitos técnicos, funcionales y no funcionales impuestos por el cliente (docente) y luego empezar con el desarrollo asistido con IA verificando en cada paso con mini pruebas con el fin de encontrar errores o falta de accesibilidad para los usuarios potenciales.
