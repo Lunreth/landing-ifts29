@@ -1,6 +1,6 @@
 # LANDING DE PORTAFOLIO - PFO N°1
 
-[LINK AL DEPLOY EN VERCEL](https://landing-ifts29.vercel.app/)
+[LINK AL DEPLOY EN VERCEL](https://kdmar-ifts29.vercel.app/)
 
 * <ins>Autor:</ins> Martínez Cáceres, Kevin David
 * <ins>Materia:</ins> Desarrollo de Sistemas Web (Front End)
