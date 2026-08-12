@@ -1,0 +1,464 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: #101014;
+    color: #f5f5f5;
+    line-height: 1.6;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+header {
+    background: #16161c;
+    border-bottom: 1px solid #292933;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 {
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: #f5f5f5;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #8b7cff;
+}
+
+
+/* =========================
+   MAIN
+========================= */
+
+main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+.section-title {
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+/* =========================
+   CARDS
+========================= */
+
+.card {
+    background: #19191f;
+
+    border: 1px solid #30303a;
+
+    border-radius: 20px;
+
+    box-shadow:
+        10px 10px 0px #0a0a0d,
+        0 15px 30px rgba(0, 0, 0, 0.4);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease,
+        border-color 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+
+    box-shadow:
+        15px 15px 0px #08080a,
+        0 20px 40px rgba(0, 0, 0, 0.5);
+
+    border-color: #6256c9;
+}
+
+
+/* =========================
+   PRESENTATION
+========================= */
+
+.presentation-card {
+    min-height: 450px;
+    padding: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 50px;
+}
+
+.presentation-text {
+    flex: 1;
+}
+
+.small-title {
+    color: #8b7cff;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.presentation-text h2 {
+    font-size: 55px;
+    line-height: 1.1;
+    margin: 10px 0;
+}
+
+.presentation-text h3 {
+    color: #aaa8b8;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.presentation-text p {
+    color: #c2c2ca;
+    margin-bottom: 30px;
+}
+
+.presentation-image {
+    flex: 0 0 280px;
+}
+
+.presentation-image img {
+    width: 280px;
+    height: 280px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 5px solid #6256c9;
+}
+
+
+/* =========================
+   BUTTON
+========================= */
+
+.button,
+button {
+    display: inline-block;
+
+    padding: 12px 25px;
+
+    border: none;
+    border-radius: 10px;
+
+    background: #6256c9;
+    color: white;
+
+    text-decoration: none;
+
+    font-family: inherit;
+    font-size: 16px;
+
+    cursor: pointer;
+
+    transition:
+        transform 0.3s,
+        background 0.3s;
+}
+
+.button:hover,
+button:hover {
+    background: #7569e0;
+    transform: translateY(-3px);
+}
+
+
+/* =========================
+   SKILLS
+========================= */
+
+.cards-container {
+    display: flex;
+    gap: 25px;
+}
+
+.skill-card {
+    flex: 1;
+    padding: 35px;
+
+    text-align: center;
+}
+
+.skill-icon {
+    display: inline-flex;
+
+    width: 70px;
+    height: 70px;
+
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 20px;
+
+    border-radius: 15px;
+
+    background: #292633;
+
+    color: #9b90ff;
+
+    font-weight: 700;
+}
+
+.skill-card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.skill-card p {
+    color: #aaa8b8;
+}
+
+
+/* =========================
+   HOBBIES
+========================= */
+
+.hobby-card {
+    padding: 40px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 40px;
+}
+
+.hobby-card div {
+    flex: 1;
+}
+
+.hobby-card h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.hobby-card p {
+    color: #aaa8b8;
+    margin-bottom: 15px;
+}
+
+.hobby-card img {
+    width: 350px;
+    height: 250px;
+
+    object-fit: cover;
+
+    border-radius: 15px;
+}
+
+
+/* =========================
+   CONTACT
+========================= */
+
+.contact-card {
+    max-width: 700px;
+    margin: auto;
+    padding: 40px;
+}
+
+.contact-card h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.contact-card > p {
+    color: #aaa8b8;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+input,
+textarea {
+    padding: 13px;
+
+    background: #101014;
+
+    border: 1px solid #353541;
+    border-radius: 8px;
+
+    color: white;
+
+    font-family: inherit;
+
+    outline: none;
+
+    transition:
+        border-color 0.3s,
+        box-shadow 0.3s;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #6256c9;
+
+    box-shadow: 0 0 0 3px rgba(98, 86, 201, 0.2);
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    width: 100%;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    padding: 30px;
+
+    text-align: center;
+
+    background: #16161c;
+
+    border-top: 1px solid #292933;
+
+    color: #888793;
+
+    font-size: 14px;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-links {
+        gap: 12px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .presentation-card {
+        padding: 30px;
+
+        flex-direction: column-reverse;
+
+        text-align: center;
+    }
+
+    .presentation-text h2 {
+        font-size: 40px;
+    }
+
+    .presentation-image {
+        flex: none;
+    }
+
+    .cards-container {
+        flex-direction: column;
+    }
+
+    .hobby-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hobby-card img {
+        width: 100%;
+        height: auto;
+    }
+
+    section {
+        margin-bottom: 70px;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    main {
+        padding: 25px 15px;
+    }
+
+    .presentation-card {
+        padding: 25px 20px;
+    }
+
+    .presentation-image img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .presentation-text h2 {
+        font-size: 34px;
+    }
+
+    .section-title {
+        font-size: 27px;
+    }
+
+    .card {
+        box-shadow:
+            6px 6px 0px #0a0a0d,
+            0 10px 20px rgba(0, 0, 0, 0.4);
+    }
+
+    .contact-card {
+        padding: 25px 20px;
+    }
+}

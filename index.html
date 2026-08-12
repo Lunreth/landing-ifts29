@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portafolio | Juan Pérez</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h1>Juan Pérez</h1>
+
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Presentación -->
+        <section id="inicio" class="hero">
+
+            <div class="card presentation-card">
+
+                <div class="presentation-text">
+                    <p class="small-title">HOLA, SOY</p>
+
+                    <h2>Juan Pérez</h2>
+
+                    <h3>Desarrollador Web</h3>
+
+                    <p>
+                        Soy una persona interesada en el desarrollo web,
+                        la tecnología y la creación de soluciones digitales.
+                        Me gusta aprender nuevas herramientas y transformar
+                        ideas en proyectos funcionales.
+                    </p>
+
+                    <a href="#contacto" class="button">
+                        Contactarme
+                    </a>
+                </div>
+
+                <div class="presentation-image">
+                    <img src="img/perfil.jpg" alt="Fotografía de Juan Pérez">
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Habilidades -->
+        <section id="habilidades">
+
+            <h2 class="section-title">Mis habilidades</h2>
+
+            <div class="cards-container">
+
+                <article class="card skill-card">
+                    <span class="skill-icon">HTML</span>
+
+                    <h3>HTML</h3>
+
+                    <p>
+                        Creación de páginas utilizando una estructura
+                        HTML semántica y organizada.
+                    </p>
+                </article>
+
+
+                <article class="card skill-card">
+                    <span class="skill-icon">CSS</span>
+
+                    <h3>CSS</h3>
+
+                    <p>
+                        Diseño de interfaces modernas, responsive
+                        y adaptadas a diferentes dispositivos.
+                    </p>
+                </article>
+
+
+                <article class="card skill-card">
+                    <span class="skill-icon">JS</span>
+
+                    <h3>JavaScript</h3>
+
+                    <p>
+                        Desarrollo de funcionalidades interactivas
+                        para páginas web.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Hobbies -->
+        <section id="hobbies">
+
+            <h2 class="section-title">Sobre mí</h2>
+
+            <div class="card hobby-card">
+
+                <div>
+                    <h3>Mis hobbies</h3>
+
+                    <p>
+                        En mi tiempo libre me gusta practicar deportes,
+                        escuchar música, jugar videojuegos y aprender
+                        sobre tecnología.
+                    </p>
+
+                    <p>
+                        También disfruto trabajar en pequeños proyectos
+                        personales para experimentar con nuevas tecnologías.
+                    </p>
+                </div>
+
+                <img src="img/hobby.jpg" alt="Persona utilizando una computadora durante su tiempo libre">
+
+            </div>
+
+        </section>
+
+
+        <!-- Contacto -->
+        <section id="contacto">
+
+            <h2 class="section-title">Contacto</h2>
+
+            <div class="card contact-card">
+
+                <h3>¿Querés contactarme?</h3>
+
+                <p>
+                    Completá el formulario y enviame un mensaje.
+                </p>
+
+                <form>
+
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input
+                            type="text"
+                            id="nombre"
+                            name="nombre"
+                            placeholder="Tu nombre"
+                            required
+                        >
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="email">Correo electrónico</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="tuemail@gmail.com"
+                            required
+                        >
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea
+                            id="mensaje"
+                            name="mensaje"
+                            rows="5"
+                            placeholder="Escribí tu mensaje..."
+                            required
+                        ></textarea>
+                    </div>
+
+
+                    <button type="submit">
+                        Enviar mensaje
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>
+            © 2026 Juan Pérez - Portafolio Web
+        </p>
+
+        <p>
+            Proyecto desarrollado con HTML y CSS
+        </p>
+    </footer>
+
+</body>
+
+</html>
